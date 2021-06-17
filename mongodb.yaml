@@ -1,0 +1,7 @@
+version: "3.5"
+
+services:
+  redis:
+    image: mongodb
+    ports:
+      - "27017:27017"
